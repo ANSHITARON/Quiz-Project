@@ -13,7 +13,6 @@ public class DAO
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 				con=DriverManager.getConnection("jdbc:mysql://localhost:3306/question_set","root","XYZ");
-			system.out.println("connection established");
 				
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
